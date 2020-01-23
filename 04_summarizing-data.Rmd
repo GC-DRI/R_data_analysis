@@ -118,8 +118,6 @@ spotify %>%
 
 To understand exactly what `group_by()` is doing, remove the line `group_by(genre) %>%` from the code above and rerun it. How do the results change?
 
-**Exercise 2**
-How would you go about finding the 
 
 ### Go further
 The `mutate()` function is another highly useful tool for extracting unseen insights from your dataframe. While `select()` allows you to choose columns and `group_by()` allows you to summarise rows, `mutate()` enables you to perform calculations and other manipulations on all data within a column. For instance, you're able perform arithmetic on numeric columns or create a new column that is a combination of two existing columns. For a light introduction, [check this out](https://dplyr.tidyverse.org/reference/mutate.html). 

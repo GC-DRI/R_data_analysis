@@ -181,8 +181,6 @@ To understand exactly what `group_by()` is doing, remove the line
 `group_by(genre) %>%` from the code above and rerun it. How do the
 results change?
 
-**Exercise 2** How would you go about finding the
-
 ### Go further
 
 The `mutate()` function is another highly useful tool for extracting
